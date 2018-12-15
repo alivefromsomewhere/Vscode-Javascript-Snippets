@@ -149,7 +149,7 @@
 			"$0"
 		],
 		"description": "Log error to the console"
-	}
+	},
 	
 	"Object Method": {
 		"prefix": "kf",
@@ -420,7 +420,7 @@
 	"return": {
 		"prefix": "ret",
 		"body": "return $1;$0"
-	}
+	},
 
     // Declarations
     "var statement": {
@@ -917,7 +917,7 @@
         "prefix": "us",
         "body": "'use strict';",
         "description": "insert 'use strict' statement"
-    }
+    },
 
 
   "import": {
@@ -1112,7 +1112,7 @@
     "prefix": "clt",
     "body": "console.table(${1:object});",
     "description": "Displays tabular data as a table."
-  }
+  },
 
 
     "console.dir": {
